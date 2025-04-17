@@ -1,0 +1,207 @@
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10%;
+}
+.background{
+  font-family: 'Playfair Display SC', serif;
+  background-image: url('Images/background.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+.mybtnn {
+  position: relative;
+  background-color: #1979A9;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  overflow: hidden;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Creating the sliding effect */
+.mybtnn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* New color on hover */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.7s ease-in-out;
+  z-index: 0;
+}
+
+/* On hover, the overlay expands */
+.mybtnn:hover::before {
+  transform: scaleX(1);
+}
+
+/* Ensuring the text stays visible */
+.mybtnn span {
+  position: relative;
+  z-index: 1;
+}
+
+
+.mybtn {
+  position: relative;
+  background-color: #fdae44;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 24px;
+
+  float: right;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  overflow: hidden;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Creating the sliding effect */
+.mybtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* New color on hover */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.7s ease-in-out;
+  z-index: 0;
+}
+
+/* On hover, the overlay expands */
+.mybtn:hover::before {
+  transform: scaleX(1);
+}
+
+/* Ensuring the text stays visible */
+.mybtn span {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.cancelbtn {
+  position: relative;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  overflow: hidden;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Creating the sliding effect */
+.cancelbtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* New color on hover */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.7s ease-in-out;
+  z-index: 0;
+}
+
+/* On hover, the overlay expands */
+.cancelbtn:hover::before {
+  transform: scaleX(1);
+}
+
+/* Ensuring the text stays visible */
+.cancelbtn span {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+
+/* Sidebar Start */
+
+/* Sidebar   styling */
+.sidebar {
+  width: 260px;
+  height: 570px;
+  overflow-y: auto;
+}
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 4px;
+}
+.menu{
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+.menu ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.menu ul li a{
+  display: block;
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.menu ul li a:hover{
+  color: #fdae44;
+}
+
+.nav-item li{
+  color: #000;
+}
+.title{
+  text-align: center;
+  color: #fdae44;
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 10px 15px;
+}
+.table{
+  border: 2px solid #000;
+}
+.table tr th, .table tr td{
+  font-size: 14px;
+  padding: 6px 6px;
+}
+.form{
+  padding: 30px;
+}
+ 
+/* Sidebar End */
