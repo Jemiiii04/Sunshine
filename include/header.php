@@ -92,7 +92,7 @@
                         
         
                         <div class="modal-footer" >
-                            <button type="Submit" name="Submit" value="Submit" class="mybtn " style="display: block; margin: 0 auto;"><span>Submit</span></button>
+                            <button type="submit" name="submit" value="submit" class="mybtn " style="display: block; margin: 0 auto;"><span>Submit</span></button>
                         
                         </div>
                         <div>
@@ -130,7 +130,7 @@
                         <input type="tel" id="phone_no" name="phone_no" placeholder="Enter your Phone No." required><br><br>
                             
                         <div class="modal-footer">
-                            <button type="Submit" name="Submit" value="Submit" class="mybtn" style="display: block; margin: 0 auto;"><span>Submit</span></button>
+                        <button type="submit" name="submit" value="submit" class="mybtn " style="display: block; margin: 0 auto;"><span>Submit</span></button>
                         </div>
                     </form>
                 </div>

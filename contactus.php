@@ -97,7 +97,7 @@ include 'include/conn.php';
       <button type="submit" class="mybtn btn-primary w-100"><span>Submit</span></button>
     </form>
   </div>
-  <br><br>
+  <br><br><br><br><br><br><br><br>
 
 <!-- Include EmailJS script for contact us -->
 <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
